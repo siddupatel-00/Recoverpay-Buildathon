@@ -1,0 +1,50 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.*
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Database files & logs
+recoverpay.db*
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & API keys (NEVER commit secrets)
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+
+# Secret keys, certificates & credentials
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+*.p12
+credentials*.json
+service-account*.json
+client_secret*.json
+id_rsa*
+id_ed25519*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+.idea/
+.vscode/
+*.swp
+
